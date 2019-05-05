@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body{
   background: khaki;
+  background-attachment: fixed;
 }
 h1:hover{
   color: red;
