@@ -9,6 +9,12 @@ import { AppComponent } from './app.component';
 import { GithubDetailsComponent } from './github-details/github-details.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
+const routes: Routes = [
+  {path: 'tltle', component: AppComponent},
+  {path: 'details', component: GithubDetailsComponent},
+  {path: '**', component: NotFoundComponent}
+];
+
 @NgModule({
   declarations: [
     AppComponent,
