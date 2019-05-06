@@ -7,11 +7,13 @@ import { RouterModule, Routes} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubDetailsComponent } from './github-details/github-details.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubDetailsComponent
+    GithubDetailsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
