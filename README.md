@@ -7,7 +7,7 @@ Author:Peter Kangogo.
 repository name: kangogopeter.
 
 ##Cloning the repository
-clone with the url: git clone 
+clone with the url: (git clone  ) 
 
 ## Development server
 
