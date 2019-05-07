@@ -10,8 +10,9 @@ import { GithubDetailsComponent } from './github-details/github-details.componen
 import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
-  {path: 'tltle', component: AppComponent},
+  {path: 'title', component: AppComponent},
   {path: 'details', component: GithubDetailsComponent},
+  {path: '', redirectTo: '/githubs', pathMatch: 'full'},
   {path: '**', component: NotFoundComponent}
 ];
 
@@ -24,7 +25,8 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

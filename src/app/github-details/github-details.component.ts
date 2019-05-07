@@ -13,7 +13,7 @@ export class GithubDetailsComponent implements OnInit {
 
   ngOnInit() {
 
-            interface ApiResponse{
+            interface ApiResponse {
               pet: string;
             }
 
