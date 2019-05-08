@@ -17,7 +17,7 @@ export class GithubDetailsComponent implements OnInit {
               pet: string;
             }
 
-            this.http.get('719126e9a161f8e24a430455d324855a1ba7241b').subscribe(data => {
+            this.http.get('17f81b17e8f83b169a4f254233f8d9476982e0cf').subscribe(data => {
 
     });
   }
