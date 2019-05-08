@@ -8,6 +8,7 @@ export const environment = {
   apiSearch: 'https://api.github.com/user/daneden?access_token=17f81b17e8f83b169a4f254233f8d9476982e0cf'
 };
 
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
