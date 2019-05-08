@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class GithubDetailsComponent implements OnInit {
   catolog = 'GALLERIES';
 
+
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
