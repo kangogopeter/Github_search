@@ -17,9 +17,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate service|class|guard|interface|module`.
 
-## Behaviour Driven Development
-
-
 ## Tools used
 Typescript,
 Bootstrap/(CSS)Cascading Style Sheet,
@@ -28,4 +25,4 @@ Angualr.
 
 ## Further help
 
-To get more help on the made repository folder contact `peterkangogo501@gmail.com` or go check out the [User repository](https://).
+To get more help on the made repository folder contact `https://peterkangogo501@gmail.com` or go check out the [User repository](https://github.com/kangogopeter/Github_search.git).
